@@ -1,0 +1,46 @@
+/* define a pastel color palette */
+:root {
+    --pastel-red: #FF6D6A;
+    --pastel-violet: #D291BC;
+    --pastel-blue: #AEC6CF;
+    --pastel-green: #77DD77;
+    --pastel-yellow: #FDFD96;
+  }
+  
+  /* apply a modern look to the body element */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--pastel-blue);
+    color: var(--pastel-violet);
+  }
+  
+  /* apply a modern look to the h1 element */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* apply a modern look to the dropzone element */
+  #dropzone {
+    width: 300px;
+    height: 300px;
+    border: 5px dashed var(--pastel-red);
+    margin: 10px auto;
+    text-align: center;
+    line-height: 300px;
+    font-size: 24px;
+  }
+  
+  /* apply a modern look to the label elements */
+  label {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* apply a modern look to the input elements */
+  input {
+    display: block;
+    margin: auto;
+  }
+  
